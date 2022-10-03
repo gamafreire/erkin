@@ -97,6 +97,4 @@ Claro que precisa ter instalados os pacotes matplotlib e scipy
 
 ### 2 - Testes
 
-Se copiar o ficheiro erkin para uma célula em Jupyter e mandar executar deve obter o mesmo <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
- 
-    <a href="./erkin_test.html"> resultado</a></div>.
+Se copiar o ficheiro erkin para uma célula em Jupyter e mandar executar deve obter o mesmo <a href="./erkin_test.html">resultado</a>
