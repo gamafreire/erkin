@@ -87,7 +87,7 @@ Tem de fornecer pelo menos 2 constantes em função da temperatura em ºC. Se es
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
         <p></p>
         <hr style="border: 0pt none ; background-color: rgb(83, 79, 154); height: 5px;">
-    <a href="./cine.html"> Voltar ao início</a></div>
+    <a href="http://reactor.ist.utl.pt/cine.html"> Voltar ao início</a></div>
     
 ### 1 - Instalação
 
