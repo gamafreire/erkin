@@ -76,7 +76,9 @@ Se os dados forem de concentração de produto, têm de ser postos em termos de 
 
 Os dados têm de ser duas listas. Uma com as temperaturas (ºC ou K) e a outra as constantes de velocidade correspondentes.
 
-Trata-se de ajustar, sem linearizar, a **equação de Arrhenius** aos dados $$ k=ko\ e^{-\frac{Ea}{RT}}$$
+Trata-se de ajustar, sem linearizar, a **equação de Arrhenius** aos dados
+
+$$k=ko\ e^{-\frac{Ea}{RT}}$$
 
 
 Tem de fornecer pelo menos 2 constantes em função da temperatura em ºC. Se estiverem em K é só ver exemplo abaixo.
