@@ -87,11 +87,11 @@ Tem de fornecer pelo menos 2 constantes em função da temperatura em ºC. Se es
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
         <p></p>
         <hr style="border: 0pt none ; background-color: rgb(83, 79, 154); height: 5px;">
-    <a href="http://reactor.ist.utl.pt/cine.html"> Voltar ao início</a></div>
+    <a href="http://reactor.ist.utl.pt/python/cine.html"> Voltar ao início</a></div>
     
 ### 1 - Instalação
 
-Fazer download do ficheiro <a href="./erkin.py" download=" erkin.py">erkin.py</a> (v2.0, separador decimal com vírgulas em vez de ponto) e movê-lo para o sítio dos seus cálculos.
+Fazer download do ficheiro <a href="./erkin.py" download="erkin.py">erkin.py</a> (v2.0, separador decimal com vírgulas em vez de ponto) e movê-lo para o sítio dos seus cálculos.
 
 Claro que precisa ter instalados os pacotes matplotlib e scipy
 
