@@ -29,7 +29,7 @@ Solução, resolução (gabarito) de todos os problemas (exercícios) do método
        <td><br></td>
       <td align="center">Python em português</td></tr>
 <tr>
-      <td width="10" align="center"><a href="http://visual.icse.us.edu.pl/methodology/sage_in_nutshell.html">SageMath in nutshell</a></td>
+      <td width="10" align="center"></td>
       <td align="center"><a>
             <img style="border: 0px solid ;" alt="OpenSource" src="http://virtualabs.ist.utl.pt/osi_keyhole.png" align="middle"></a></td>
         <td align="center">Incrementar o uso de OpenSource no ensino
