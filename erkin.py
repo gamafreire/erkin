@@ -4,7 +4,7 @@ from scipy.optimize import least_squares
 from IPython.display import display, Math
 
 
-def _format_sci(number, err=0, n=0, label=''):
+def _format_sci(number, e=0, n=0, label=''):
     """Return a LaTeX-formatted string for a number with optional error.
 
     Designed for display(Math(...)). Works with scalar floats.
@@ -14,19 +14,19 @@ def _format_sci(number, err=0, n=0, label=''):
     except Exception:
         x = number
 
-    if err is None:
-        err = 0
+    if e is None:
+        e = 0
 
     # handle zero or non-finite
     if not np.isfinite(x):
         return f"{label} = {x}"
 
-    if err and np.isfinite(err) and err != 0:
+    if e and np.isfinite(e) and e != 0:
         # scientific notation
         pot = int(np.floor(np.log10(abs(x)))) if x != 0 else 0
         mant = x / 10 ** pot
-        pote = int(np.floor(np.log10(abs(err)))) if err != 0 else pot
-        errmant = err / 10 ** pot
+        pote = int(np.floor(np.log10(abs(e)))) if e != 0 else pot
+        errmant = e / 10 ** pot
         if pot == 0:
             return f"{label} = {mant:.{pot-pote+1}f} \ (\pm {errmant:.{pot-pote+2}f})".replace('.', ',')
         else:
@@ -218,7 +218,7 @@ def ERA(X, Y, Kelvin=False, grafico=False):
         plt.legend()
         plt.show()
 
-    labels = ['ko', 'Ea\ \ (J/mol)']
+    labels = ['ko', 'Ea\\ \\ (J/mol)']
     for i in range(2):
         print_sci(result.x[i], dFit[i] if i < len(dFit) else 0, stri=labels[i])
 
